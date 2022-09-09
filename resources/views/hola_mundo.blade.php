@@ -3,4 +3,4 @@
 </div>
 
 
-<a href="{{ route('bienvenida') }}">"Volver al inicio</a>
+<a href="{{ route('welcome') }}">"Volver al inicio</a>

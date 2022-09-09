@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('bienvenida');
+Route::get('/', 'InicioController@index')->name('welcome');
 
 Route::get('inicio', function () {
     return view('Hola_mundo');
