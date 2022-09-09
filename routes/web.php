@@ -13,4 +13,8 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('bienvenida');
+
+Route::get('inicio', function () {
+    return view('Hola_mundo');
+})->name('inicio');
