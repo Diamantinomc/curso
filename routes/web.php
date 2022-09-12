@@ -11,8 +11,10 @@
 |
 */
 
-Route::get('/', 'InicioController@index')->name('welcome');
+Route::get('/', 'InicioController@index')->name('   inicio');
 
-Route::get('inicio', function () {
-    return view('Hola_mundo');
-})->name('inicio');
+Route::get('plantilla', function(){
+    return view('plantilla');
+});
+
+

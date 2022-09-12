@@ -3,4 +3,3 @@
 </div>
 
 
-<a href="{{ route('welcome') }}">"Volver al inicio</a>

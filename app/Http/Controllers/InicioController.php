@@ -9,6 +9,6 @@ class InicioController extends Controller
     //Función que dirige al index
     public function index()
     {
-        return view('welcome');
+        return view('inicio');
     }
 }
